@@ -1,3 +1,4 @@
+# This initial dockerfile helped me set up a tomcat container
 FROM centos
 RUN yum install java -y
 RUN mkdir /opt/tomcat/
